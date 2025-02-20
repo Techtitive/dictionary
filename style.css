@@ -49,6 +49,17 @@ body {
     border-radius: 5px;
 }
 
+.searchbox button:hover {
+    box-shadow: 0px 0px 10px yellow;
+    transition: 0.6s ease-in-out;
+
+}
+
+.searchbox button:active {
+    box-shadow: 0px 0px 10px yellow, 0px 0px 15px yellow;  
+    transition: 0.6s ease-in-out;
+}
+
 .result {
     position: relative;
 }
